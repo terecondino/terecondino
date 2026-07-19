@@ -27,7 +27,7 @@ body.dark-mode .contact{background:#100c0f}
 body.dark-mode .light-button{border-color:#8d6a7c}
 body.dark-mode .light-button:hover{background:#f8edf2;color:#21171d}
 body.dark-mode footer{border-color:#45343e;color:#bbaab3}
-body.dark-mode .cursor-flower{filter:drop-shadow(0 3px 7px #000) saturate(1.2)}
+body.dark-mode .cursor-snowflake{filter:drop-shadow(0 0 8px #bfeaff) saturate(1.2)}
 
 @media(pointer:coarse){.portrait-toggle{cursor:pointer}.theme-toggle-hint{opacity:1;bottom:9px}}
 @media(max-width:760px){.theme-toggle-hint{opacity:1;bottom:8px;padding:.4rem .62rem}}

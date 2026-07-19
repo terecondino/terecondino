@@ -1,0 +1,10 @@
+/* v6 winter brand and snow cursor — replaces every earlier petal layer. */
+.brand .brand-mark{width:42px;height:42px;padding:0;background:transparent;border-radius:50%;overflow:visible;box-shadow:0 7px 18px #364e632e;flex:0 0 42px}.brand-mark img{display:block;width:100%;height:100%}
+.cursor-dot,.cursor-ring,.cursor-petal,.cursor-flower,.petal-trail,#petal-canvas{display:none!important}
+#snow-canvas{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:1050}
+.cursor-snowflake{position:fixed;left:0;top:0;width:28px;height:28px;display:grid;place-items:center;pointer-events:none;z-index:1100;opacity:0;color:#eaf8ff;font:700 25px/1 Georgia,serif;text-shadow:-1px 0 #52798f,0 1px #52798f,1px 0 #52798f,0 -1px #52798f,0 0 9px #8cc5df;transform-origin:center;transition:opacity .15s ease,filter .2s ease}
+.cursor-snowflake.active{filter:drop-shadow(0 0 8px #c7edff) saturate(1.2);animation:snow-cursor-spin 2.4s linear infinite}
+@keyframes snow-cursor-spin{to{rotate:360deg}}
+@media(pointer:fine){body,body a,body button,body summary,body .interactive-card{cursor:none!important}}
+@media(pointer:coarse){.cursor-snowflake{display:none!important}body,body a,body button,body summary,body .interactive-card{cursor:auto!important}}
+@media(prefers-reduced-motion:reduce){#snow-canvas,.cursor-snowflake{display:none!important}body,body a,body button,body summary,body .interactive-card{cursor:auto!important}}
