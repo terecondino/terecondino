@@ -13,3 +13,9 @@ Personal portfolio website for **Maria Teresa Condino**, a Senior Software QA An
 - Responsive and accessible design with reduced-motion support
 
 Open `index.html` locally to preview the website.
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/mariatersacondino/)
+- Email: teresa_condino@yahoo.com
+- Mobile: 0995 438 0861
