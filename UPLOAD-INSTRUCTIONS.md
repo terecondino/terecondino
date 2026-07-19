@@ -9,10 +9,14 @@
    - `index.html`
    - `styles.css`
    - `brand-petals-v3.css`
+   - `responsive-photo-v4.css`
+   - `portrait-theme-v5.css`
    - `petals-v3.js`
+   - `theme-toggle-v5.js`
    - `brand-mark.svg`
    - `apple-touch-icon.png`
    - `TERESA-LINKEDIN.webp`
+   - `TERESA-LINKEDIN.jpg`
    - `README.md`
 5. Enter a commit message such as `Add Teresa's QA portfolio` and select **Commit changes**.
 

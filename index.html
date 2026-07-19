@@ -2,18 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Portfolio of Maria Teresa Condino, a Senior Software QA Analyst with 16+ years of experience and a focus on human-validated, AI-assisted software testing.">
   <meta name="theme-color" content="#371f32">
   <title>Maria Teresa Condino | Senior Software QA</title>
   <link rel="icon" type="image/svg+xml" href="brand-mark.svg">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preload" as="image" href="TERESA-LINKEDIN.webp" type="image/webp" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="brand-petals-v3.css">
+  <link rel="stylesheet" href="responsive-photo-v4.css">
+  <link rel="stylesheet" href="portrait-theme-v5.css">
   <script src="petals-v3.js" defer></script>
+  <script src="theme-toggle-v5.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -39,7 +43,7 @@
       </div>
       <div class="hero-art hero-photo reveal">
         <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="portrait-frame"><img src="TERESA-LINKEDIN.webp" alt="Maria Teresa Condino" width="900" height="900" fetchpriority="high"></div>
+        <button type="button" class="portrait-frame portrait-toggle" aria-pressed="false" aria-label="Switch to dark mode"><picture><source type="image/webp" srcset="TERESA-LINKEDIN.webp"><img src="TERESA-LINKEDIN.jpg" alt="Maria Teresa Condino" loading="eager" fetchpriority="high" decoding="sync" width="900" height="900"></picture><span class="theme-toggle-hint"><span aria-hidden="true">◐</span><b data-theme-label>Dark mode</b></span></button>
         <span class="floating-chip chip-one">AI + QA</span><span class="floating-chip chip-two">Human-validated</span><span class="floating-chip chip-three">Automation</span>
       </div>
       <div class="hero-stats reveal">
