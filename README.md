@@ -1,9 +1,11 @@
 # Maria Teresa Condino — Senior Software QA
 
-Personal portfolio website for **Maria Teresa Condino**, a Senior Software QA Analyst with 16+ years of experience across manual testing, QA automation, CI, database validation, and release quality.
+Personal portfolio website for **Maria Teresa Condino**, a Senior Software QA Analyst with 16+ years of experience and a focus on responsible, human-validated AI-assisted software testing.
 
 ## Portfolio highlights
 
+- AI-assisted requirements analysis, test design, edge-case discovery, defect analysis, and documentation
+- Responsible use of ChatGPT and Claude with human validation
 - Cypress and Cucumber/Gherkin automation
 - CircleCI execution and failure analysis
 - SIT, UAT, SAT, smoke, regression, and risk-based testing

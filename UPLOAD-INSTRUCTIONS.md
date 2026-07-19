@@ -9,6 +9,7 @@
    - `index.html`
    - `styles.css`
    - `script.js`
+   - `TERESA-LINKEDIN.webp`
    - `README.md`
 5. Enter a commit message such as `Add Teresa's QA portfolio` and select **Commit changes**.
 
