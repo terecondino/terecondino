@@ -1,0 +1,13 @@
+/* v7: petals in light mode, snow in dark mode. */
+.brand .brand-mark{width:42px;height:42px;padding:0;background:transparent;border-radius:50%;overflow:visible;box-shadow:0 7px 18px #55324726;flex:0 0 42px}.brand-mark img{display:block;width:100%;height:100%}
+.cursor-dot,.cursor-ring,.cursor-petal,.cursor-flower,.cursor-snowflake,.petal-trail,#petal-canvas,#snow-canvas{display:none!important}
+#season-canvas{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:1050}
+.cursor-season{position:fixed;left:0;top:0;width:30px;height:30px;pointer-events:none;z-index:1100;opacity:0;transition:opacity .15s ease,filter .2s ease}
+.cursor-petal-mode{position:absolute;inset:3px;filter:drop-shadow(0 3px 4px #6e385b45)}.cursor-petal-mode i{position:absolute;left:8px;top:0;width:8px;height:11px;border-radius:80% 15% 78% 18%;background:linear-gradient(150deg,#f5cbd4,#ca758d);transform-origin:50% 11px}.cursor-petal-mode i:nth-child(2){transform:rotate(90deg)}.cursor-petal-mode i:nth-child(3){transform:rotate(180deg)}.cursor-petal-mode i:nth-child(4){transform:rotate(270deg)}.cursor-petal-mode b{position:absolute;left:9px;top:9px;width:6px;height:6px;border-radius:50%;background:#f6d89c;box-shadow:inset 0 0 0 1px #b97454}
+.cursor-snow-mode{display:none;position:absolute;inset:0;place-items:center;color:#eaf8ff;font:700 27px/1 Georgia,serif;text-shadow:-1px 0 #52798f,0 1px #52798f,1px 0 #52798f,0 -1px #52798f,0 0 9px #8cc5df}
+body.dark-mode .cursor-petal-mode{display:none}body.dark-mode .cursor-snow-mode{display:grid}.cursor-season.active .cursor-petal-mode{filter:drop-shadow(0 4px 7px #6e385b65) saturate(1.2)}body.dark-mode .cursor-season.active{animation:season-snow-spin 2.4s linear infinite;filter:drop-shadow(0 0 8px #bfeaff)}
+@keyframes season-snow-spin{to{rotate:360deg}}
+.profile-picture{display:block;width:100%;height:100%}.profile-dark{display:none!important}body.dark-mode .profile-light{display:none!important}body.dark-mode .profile-dark{display:block!important}
+@media(pointer:fine){body,body a,body button,body summary,body .interactive-card{cursor:none!important}}
+@media(pointer:coarse){.cursor-season{display:none!important}body,body a,body button,body summary,body .interactive-card{cursor:auto!important}}
+@media(prefers-reduced-motion:reduce){#season-canvas,.cursor-season{display:none!important}body,body a,body button,body summary,body .interactive-card{cursor:auto!important}}

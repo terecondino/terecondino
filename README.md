@@ -11,10 +11,10 @@ Personal portfolio website for **Maria Teresa Condino**, a Senior Software QA An
 - SIT, UAT, SAT, smoke, regression, and risk-based testing
 - SQL Server, PL/SQL, MySQL, report, and data-flow validation
 - Responsive and accessible design with reduced-motion support
-- Custom MT snowflake monogram and matching browser favicon
-- Canvas-rendered falling snow on all platforms with a snowflake cursor on desktop
-- First-viewport snowy portrait with centered mobile/tablet/desktop positioning and WebP/JPEG fallback
-- Portrait-controlled light/dark theme with keyboard support and saved device preference
+- Dynamic MT branding: rose-petal monogram in light mode and snowflake monogram in dark mode
+- Canvas-rendered petals in light mode and falling snow in dark mode, with matching desktop cursors
+- LinkedIn portrait in light mode and snowy portrait in dark mode, centered across mobile/tablet/desktop
+- Portrait-controlled seasonal light/dark theme with keyboard support and saved device preference
 
 Open `index.html` locally to preview the website.
 
