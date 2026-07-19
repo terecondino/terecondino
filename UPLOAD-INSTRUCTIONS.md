@@ -8,7 +8,10 @@
 4. Upload these files to the repository root:
    - `index.html`
    - `styles.css`
-   - `script.js`
+   - `brand-petals-v3.css`
+   - `petals-v3.js`
+   - `brand-mark.svg`
+   - `apple-touch-icon.png`
    - `TERESA-LINKEDIN.webp`
    - `README.md`
 5. Enter a commit message such as `Add Teresa's QA portfolio` and select **Commit changes**.
